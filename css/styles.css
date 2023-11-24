@@ -1,0 +1,72 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+
+/* Box-shadow */
+.shadow {
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+/* color */
+
+body {
+    --tag-txt: #883AE1;
+    --tag-bg: #E6D6FC;
+    --color-bg: #FAFAF9;
+    --title-color: #20293A;
+    --text-color: #6C727F;
+    --separator-color: #E5EAF0;
+    display: flex;
+    justify-content: center;
+    margin-top: 164px;
+    background-color: var(--color-bg);
+    font-family: 'Sora', sans-serif;
+}
+
+img {
+    width: 336px;
+    height: 152px;
+    border-radius: 16px;
+    margin: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.tag {
+    display: flex;
+    background-color: var(--tag-bg);
+    color: var(--tag-txt) ;
+    border-radius: 6px;
+    padding: 6px 16px 6px 16px;
+    width: fit-content;
+    margin-left: 16px;
+    font-size: 10px;
+}
+
+.card-title {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+.card-txt {
+    width: 336px;
+    font-size: 14px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.card-author {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 16px 20px 16px;
+    font-size: 12px;
+    border-top: solid 1px var(--separator-color);
+}
