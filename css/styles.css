@@ -1,7 +1,14 @@
 /* import font */
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: inherit;
+    color: inherit;
+    font: inherit;
+  }
 /* Box-shadow */
 .shadow {
     box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
@@ -41,11 +48,12 @@ img {
     display: flex;
     background-color: var(--tag-bg);
     color: var(--tag-txt) ;
-    border-radius: 6px;
+    border-radius: 16px;
     padding: 6px 16px 6px 16px;
     width: fit-content;
+    height: fit-content;
     margin-left: 16px;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .card-title {
@@ -53,20 +61,23 @@ img {
     margin-top: 16px;
     margin-bottom: 6px;
     margin-left: 16px;
-    font-size: 16px;
+    font-size: 1.125rem;
+    color: var(--title-color)
 }
 
 .card-txt {
     width: 336px;
-    font-size: 14px;
+    font-size: 0.875rem;
     margin-left: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    color: var(--text-color)
 }
 
 .card-author {
     display: flex;
     align-items: flex-end;
     padding: 20px 16px 20px 16px;
-    font-size: 12px;
+    font-size: 0.75rem;
     border-top: solid 1px var(--separator-color);
+    color: var(--text-color)
 }
